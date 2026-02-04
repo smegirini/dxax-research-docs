@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>DX·AX 챌린지 과제 풀 (50+ 예시)</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Quartz 4"/><meta property="og:title" content="DX·AX 챌린지 과제 풀 (50+ 예시)"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="DX·AX 챌린지 과제 풀 (50+ 예시)"/><meta name="twitter:description" content="DX·AX 챌린지 과제 풀 과제 설계 원칙 60분 규칙: 모든 과제는 점심시간 활용 기준 60~120분 내 완료 가능 1장 증빙: 전/후 캡처 + 절감 산식으로 간단히 증명 즉시 체감: 완료 즉시 본인 업무에 적용 가능한 실용성 📊 레벨 1: 개인 미니 자동화 (≤60분) 🔧 도구: Make / n8n / Zapier 공통 업무 No과제명설명예상 절감증빙1-01이메일 → 슬랙 알림봇특정 키워드(긴급, 결재요청 등) 포함 메일 수신 시 슬랙/팀즈로 즉시 알림하루 10분플로우 캡처 + 알림 스크린샷1-02일정 리마인더 자동화구글/아..."/><meta property="og:description" content="DX·AX 챌린지 과제 풀 과제 설계 원칙 60분 규칙: 모든 과제는 점심시간 활용 기준 60~120분 내 완료 가능 1장 증빙: 전/후 캡처 + 절감 산식으로 간단히 증명 즉시 체감: 완료 즉시 본인 업무에 적용 가능한 실용성 📊 레벨 1: 개인 미니 자동화 (≤60분) 🔧 도구: Make / n8n / Zapier 공통 업무 No과제명설명예상 절감증빙1-01이메일 → 슬랙 알림봇특정 키워드(긴급, 결재요청 등) 포함 메일 수신 시 슬랙/팀즈로 즉시 알림하루 10분플로우 캡처 + 알림 스크린샷1-02일정 리마인더 자동화구글/아..."/><meta property="og:image:alt" content="DX·AX 챌린지 과제 풀 과제 설계 원칙 60분 규칙: 모든 과제는 점심시간 활용 기준 60~120분 내 완료 가능 1장 증빙: 전/후 캡처 + 절감 산식으로 간단히 증명 즉시 체감: 완료 즉시 본인 업무에 적용 가능한 실용성 📊 레벨 1: 개인 미니 자동화 (≤60분) 🔧 도구: Make / n8n / Zapier 공통 업무 No과제명설명예상 절감증빙1-01이메일 → 슬랙 알림봇특정 키워드(긴급, 결재요청 등) 포함 메일 수신 시 슬랙/팀즈로 즉시 알림하루 10분플로우 캡처 + 알림 스크린샷1-02일정 리마인더 자동화구글/아..."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/DX_AX_pool/DX·AX-챌린지-과제-풀-(50+-예시)"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/DX_AX_pool/DX·AX-챌린지-과제-풀-(50+-예시)"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="DX·AX 챌린지 과제 풀 과제 설계 원칙 60분 규칙: 모든 과제는 점심시간 활용 기준 60~120분 내 완료 가능 1장 증빙: 전/후 캡처 + 절감 산식으로 간단히 증명 즉시 체감: 완료 즉시 본인 업무에 적용 가능한 실용성 📊 레벨 1: 개인 미니 자동화 (≤60분) 🔧 도구: Make / n8n / Zapier 공통 업무 No과제명설명예상 절감증빙1-01이메일 → 슬랙 알림봇특정 키워드(긴급, 결재요청 등) 포함 메일 수신 시 슬랙/팀즈로 즉시 알림하루 10분플로우 캡처 + 알림 스크린샷1-02일정 리마인더 자동화구글/아..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL3ByaXZhdGUvdG1wL3F1YXJ0ei9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/DX_AX_pool/DX·AX-챌린지-과제-풀-(50+-예시)-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/DX_AX_pool/DX·AX-챌린지-과제-풀-(50+-예시)-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/DX_AX_pool/DX·AX-챌린지-과제-풀-(50+-예시)-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="DX_AX_pool/DX·AX-챌린지-과제-풀-(50+-예시)"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Quartz 4</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-3" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../DX_AX_pool/">DX_AX_pool</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>DX·AX 챌린지 과제 풀 (50+ 예시)</a></div></nav><h1 class="article-title">DX·AX 챌린지 과제 풀 (50+ 예시)</h1><p show-comma="true" class="content-meta"><time datetime="2026-02-04T02:25:50.278Z">Feb 04, 2026</time><span>24 min read</span></p></div></div><article class="popover-hint"><h1 id="dxax-챌린지-과제-풀">DX·AX 챌린지 과제 풀<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dxax-챌린지-과제-풀" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="과제-설계-원칙">과제 설계 원칙<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#과제-설계-원칙" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>60분 규칙</strong>: 모든 과제는 점심시간 활용 기준 60~120분 내 완료 가능</li>
+<li><strong>1장 증빙</strong>: 전/후 캡처 + 절감 산식으로 간단히 증명</li>
+<li><strong>즉시 체감</strong>: 완료 즉시 본인 업무에 적용 가능한 실용성</li>
+</ul>
+<hr/>
+<h1 id="-레벨-1-개인-미니-자동화-60분">📊 레벨 1: 개인 미니 자동화 (≤60분)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-레벨-1-개인-미니-자동화-60분" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="-도구-make--n8n--zapier">🔧 도구: Make / n8n / Zapier<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-도구-make--n8n--zapier" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="공통-업무">공통 업무<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#공통-업무" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>1-01</td><td>이메일 → 슬랙 알림봇</td><td>특정 키워드(긴급, 결재요청 등) 포함 메일 수신 시 슬랙/팀즈로 즉시 알림</td><td>하루 10분</td><td>플로우 캡처 + 알림 스크린샷</td></tr><tr><td>1-02</td><td>일정 리마인더 자동화</td><td>구글/아웃룩 캘린더 일정 30분 전 팀 채널에 자동 공지</td><td>주 15분</td><td>트리거 설정 + 메시지 캡처</td></tr><tr><td>1-03</td><td>파일 정리 자동화</td><td>공유 드라이브에 파일 업로드 시 날짜/유형별 폴더로 자동 이동</td><td>주 20분</td><td>폴더 구조 전/후</td></tr><tr><td>1-04</td><td>회의록 자동 배포</td><td>회의록 작성 완료 → 참석자에게 자동 이메일/슬랙 발송</td><td>건당 5분</td><td>워크플로우 + 발송 로그</td></tr><tr><td>1-05</td><td>결재 완료 알림</td><td>전자결재 승인 완료 시 신청자에게 즉시 알림</td><td>건당 3분</td><td>연동 설정 캡처</td></tr></tbody></table></div>
+<h3 id="연구개발">연구/개발<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#연구개발" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>1-06</td><td>실험 일정 리마인더</td><td>실험 예약 시스템 → 당일 아침 담당자에게 준비물 포함 알림</td><td>주 10분</td><td>알림 메시지 캡처</td></tr><tr><td>1-07</td><td>장비 예약 충돌 알림</td><td>동일 시간대 중복 예약 발생 시 담당자들에게 즉시 알림</td><td>월 30분</td><td>충돌 감지 로직</td></tr><tr><td>1-08</td><td>시험 성적서 도착 알림</td><td>외부 시험기관 메일 수신 시 담당 연구원에게 전달</td><td>건당 5분</td><td>필터 규칙 + 전달 로그</td></tr></tbody></table></div>
+<h3 id="생산설비">생산/설비<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#생산설비" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>1-09</td><td>설비 점검 리마인더</td><td>주간/월간 점검 일정 도래 시 담당자에게 체크리스트 포함 알림</td><td>주 15분</td><td>리마인더 설정 + 체크리스트</td></tr><tr><td>1-10</td><td>교대 인수인계 알림</td><td>교대 30분 전 전 조 담당자에게 인수인계 작성 요청</td><td>일 5분</td><td>자동 발송 로그</td></tr><tr><td>1-11</td><td>자재 입고 알림</td><td>ERP/WMS 입고 등록 시 생산팀에 즉시 알림</td><td>건당 3분</td><td>연동 플로우</td></tr></tbody></table></div>
+<h3 id="품질qa">품질/QA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#품질qa" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>1-12</td><td>불량 발생 즉시 알림</td><td>검사 시스템에서 불량 등록 시 품질팀장에게 즉시 알림</td><td>건당 10분</td><td>알림 규칙 + 수신 캡처</td></tr><tr><td>1-13</td><td>시정조치 기한 알림</td><td>CAPA 마감 D-3, D-1 시점에 담당자에게 리마인더</td><td>건당 5분</td><td>기한 트리거 설정</td></tr><tr><td>1-14</td><td>고객 클레임 접수 알림</td><td>클레임 메일 수신 시 품질팀 채널에 요약 자동 공유</td><td>건당 5분</td><td>파싱 규칙 + 메시지</td></tr></tbody></table></div>
+<h3 id="마케팅영업지원">마케팅/영업/지원<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#마케팅영업지원" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>1-15</td><td>리드 등록 알림</td><td>웹사이트 문의 접수 시 영업팀에 즉시 알림 + CRM 자동 등록</td><td>건당 5분</td><td>폼 → CRM 플로우</td></tr><tr><td>1-16</td><td>SNS 멘션 알림</td><td>브랜드 키워드 언급 시 마케팅팀에 알림</td><td>일 10분</td><td>모니터링 규칙</td></tr><tr><td>1-17</td><td>계약 만료 알림</td><td>계약 종료 D-30, D-7 시점에 담당자에게 갱신 안내</td><td>건당 5분</td><td>날짜 트리거</td></tr></tbody></table></div>
+<hr/>
+<h1 id="-레벨-2-생성형-ai-도구화-90분">🤖 레벨 2: 생성형 AI 도구화 (≤90분)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-레벨-2-생성형-ai-도구화-90분" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="-도구-chatgpt--claude--cursor--copilot--dify">🔧 도구: ChatGPT / Claude / Cursor / Copilot / Dify<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-도구-chatgpt--claude--cursor--copilot--dify" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="공통-업무-1">공통 업무<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#공통-업무-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>2-01</td><td>회의록 요약 프롬프트</td><td>회의 녹취/메모 입력 → 액션아이템 포함 정형화된 회의록 생성</td><td>건당 15분</td><td>프롬프트 카드 + 산출물 비교</td></tr><tr><td>2-02</td><td>이메일 초안 생성기</td><td>상황별(요청/회신/사과/안내) 이메일 템플릿 프롬프트 세트</td><td>건당 10분</td><td>프롬프트 4종 + 샘플</td></tr><tr><td>2-03</td><td>보고서 초안 작성</td><td>데이터/메모 입력 → 정해진 양식의 보고서 초안 생성</td><td>건당 20분</td><td>템플릿 + 산출물</td></tr><tr><td>2-04</td><td>번역 + 톤 조정</td><td>기술문서 영한/한영 번역 + 독자 수준별 톤 조정</td><td>건당 10분</td><td>원문/번역문 비교</td></tr><tr><td>2-05</td><td>FAQ 답변 생성기</td><td>자주 묻는 질문 입력 → 일관된 톤의 답변 자동 생성</td><td>건당 5분</td><td>Q&amp;A 10쌍 샘플</td></tr></tbody></table></div>
+<h3 id="연구개발-1">연구/개발<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#연구개발-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>2-06</td><td>실험계획서 초안 생성</td><td>목적/변수 입력 → DOE 기반 실험계획서 초안</td><td>건당 30분</td><td>프롬프트 + 계획서 샘플</td></tr><tr><td>2-07</td><td>논문/특허 요약봇</td><td>PDF 업로드 → 핵심 내용 3줄 요약 + 키워드 추출</td><td>건당 15분</td><td>요약 전/후 비교</td></tr><tr><td>2-08</td><td>배합 레시피 비교 분석</td><td>두 레시피 입력 → 차이점/예상 물성 변화 분석</td><td>건당 20분</td><td>분석 리포트 샘플</td></tr><tr><td>2-09</td><td>시험 결과 해석 도우미</td><td>시험 데이터 입력 → 이상치 탐지 + 해석 코멘트</td><td>건당 15분</td><td>해석 리포트</td></tr><tr><td>2-10</td><td>기술문서 용어 통일</td><td>문서 내 용어 불일치 검출 + 통일안 제시</td><td>건당 10분</td><td>수정 전/후 diff</td></tr></tbody></table></div>
+<h3 id="생산설비-1">생산/설비<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#생산설비-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>2-11</td><td>교대 인수인계 요약봇</td><td>구두/메모 내용 → 정형화된 인수인계 문서 생성</td><td>건당 10분</td><td>템플릿 + 샘플 3건</td></tr><tr><td>2-12</td><td>설비 이상 원인 추론</td><td>증상 입력 → 가능 원인 + 점검 순서 제안</td><td>건당 15분</td><td>추론 로직 + 샘플</td></tr><tr><td>2-13</td><td>작업 표준서 초안</td><td>작업 내용 입력 → SOP 양식 초안 생성</td><td>건당 30분</td><td>SOP 템플릿 + 샘플</td></tr><tr><td>2-14</td><td>정비 이력 요약</td><td>장비별 정비 기록 → 월간 요약 리포트 생성</td><td>월 20분</td><td>요약 리포트</td></tr></tbody></table></div>
+<h3 id="품질qa-1">품질/QA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#품질qa-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>2-15</td><td>8D 리포트 초안 생성</td><td>불량 내용 입력 → 8D 양식 초안 자동 작성</td><td>건당 30분</td><td>8D 템플릿 + 샘플</td></tr><tr><td>2-16</td><td>검사 성적서 해석</td><td>성적서 데이터 → 규격 대비 합/부 판정 + 코멘트</td><td>건당 10분</td><td>판정 로직 + 샘플</td></tr><tr><td>2-17</td><td>고객 클레임 응대 초안</td><td>클레임 내용 → 회신 메일 초안 + 조치계획</td><td>건당 20분</td><td>응대 템플릿 3종</td></tr><tr><td>2-18</td><td>FMEA 항목 제안</td><td>공정/제품 정보 → 잠재 고장모드 + RPN 초안</td><td>건당 25분</td><td>FMEA 시트 샘플</td></tr></tbody></table></div>
+<h3 id="마케팅영업">마케팅/영업<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#마케팅영업" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>2-19</td><td>제안서 초안 생성</td><td>고객 요구사항 → 제안서 구조 + 초안</td><td>건당 40분</td><td>제안서 템플릿</td></tr><tr><td>2-20</td><td>VOC 감성 분류</td><td>고객 피드백 텍스트 → 긍정/부정/중립 + 키워드 태깅</td><td>건당 5분</td><td>분류 결과 시트</td></tr><tr><td>2-21</td><td>경쟁사 뉴스 요약</td><td>뉴스 링크 입력 → 핵심 요약 + 시사점</td><td>건당 10분</td><td>요약 카드</td></tr><tr><td>2-22</td><td>마케팅 카피 생성</td><td>제품 특징 → 채널별(SNS/웹/카탈로그) 카피 생성</td><td>건당 15분</td><td>카피 3종 세트</td></tr></tbody></table></div>
+<hr/>
+<h1 id="-레벨-3-팀-워크플로우-구축-120분">🔗 레벨 3: 팀 워크플로우 구축 (≤120분)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-레벨-3-팀-워크플로우-구축-120분" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="-도구-notion--forms--airtable--자동화-연동">🔧 도구: Notion / Forms / Airtable + 자동화 연동<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-도구-notion--forms--airtable--자동화-연동" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="공통협업">공통/협업<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#공통협업" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>3-01</td><td>업무 요청 시스템</td><td>구글폼/MS폼 → 시트 자동 등록 → 담당자 알림 → 완료 시 요청자 알림</td><td>팀 주 1시간</td><td>전체 플로우 다이어그램</td></tr><tr><td>3-02</td><td>문서 승인 워크플로우</td><td>문서 업로드 → 검토자 알림 → 승인/반려 → 결과 기록</td><td>건당 15분</td><td>상태 변경 로그</td></tr><tr><td>3-03</td><td>프로젝트 진행 현황판</td><td>노션/에어테이블 기반 칸반보드 + 주간 자동 요약 발송</td><td>주 30분</td><td>보드 + 요약 메일</td></tr><tr><td>3-04</td><td>휴가/출장 신청 봇</td><td>슬랙 명령어 → 캘린더 등록 → 팀장 알림 → 승인 시 팀 공유</td><td>건당 10분</td><td>봇 명령어 + 플로우</td></tr><tr><td>3-05</td><td>신규 입사자 온보딩</td><td>입사일 기준 D-3, D-1, D+1 자동 안내 메일 + 체크리스트</td><td>인당 1시간</td><td>시퀀스 설정</td></tr></tbody></table></div>
+<h3 id="연구개발-2">연구/개발<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#연구개발-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>3-06</td><td>시료 요청-수령 시스템</td><td>요청폼 → 담당자 알림 → 수령 확인 → 자동 기록</td><td>건당 15분</td><td>요청-수령 로그</td></tr><tr><td>3-07</td><td>실험 예약 관리</td><td>장비별 예약 캘린더 + 충돌 방지 + 사용 후 점검 알림</td><td>주 20분</td><td>예약 현황판</td></tr><tr><td>3-08</td><td>연구 노트 템플릿</td><td>실험 기록 양식 + 자동 날짜/담당자 입력 + 검색 태그</td><td>건당 10분</td><td>노트 템플릿</td></tr></tbody></table></div>
+<h3 id="생산설비-2">생산/설비<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#생산설비-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>3-09</td><td>설비 정비 요청 시스템</td><td>이상 신고 → 정비팀 알림 → 조치 기록 → 완료 알림</td><td>건당 20분</td><td>티켓 플로우</td></tr><tr><td>3-10</td><td>작업 지시 배포</td><td>생산계획 확정 → 라인별 담당자에게 자동 배포</td><td>일 15분</td><td>배포 로그</td></tr><tr><td>3-11</td><td>안전 점검 체크리스트</td><td>일일 점검 폼 → 미완료 시 리마인더 → 주간 요약</td><td>주 30분</td><td>점검 현황판</td></tr></tbody></table></div>
+<h3 id="품질qa-2">품질/QA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#품질qa-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>3-12</td><td>검사 의뢰 시스템</td><td>의뢰폼 → 검사팀 큐 → 완료 시 의뢰자 알림 + 성적서 첨부</td><td>건당 15분</td><td>의뢰-완료 플로우</td></tr><tr><td>3-13</td><td>부적합품 처리 워크플로우</td><td>발견 → 격리 확인 → 원인조사 → 처리결정 → 기록</td><td>건당 30분</td><td>상태 트래킹</td></tr><tr><td>3-14</td><td>협력사 평가 수집</td><td>평가폼 자동 발송 → 수합 → 점수 집계 → 리포트</td><td>분기 2시간</td><td>자동 집계 시트</td></tr></tbody></table></div>
+<h3 id="마케팅영업-1">마케팅/영업<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#마케팅영업-1" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>3-15</td><td>견적 요청-회신 시스템</td><td>요청 접수 → 담당자 배정 → 견적 회신 → 이력 기록</td><td>건당 20분</td><td>CRM 연동 플로우</td></tr><tr><td>3-16</td><td>캠페인 진행 현황판</td><td>캠페인별 일정/예산/성과 트래킹 + 주간 자동 리포트</td><td>주 30분</td><td>대시보드 + 리포트</td></tr><tr><td>3-17</td><td>콘텐츠 제작 파이프라인</td><td>기획 → 제작 → 검토 → 발행 워크플로우 + 기한 알림</td><td>건당 15분</td><td>칸반보드</td></tr></tbody></table></div>
+<hr/>
+<h1 id="-레벨-4-데이터품질-대시보드-120분">📈 레벨 4: 데이터·품질 대시보드 (≤120분)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-레벨-4-데이터품질-대시보드-120분" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="-도구-스프레드시트--looker-studio--경량-bi--apps-script">🔧 도구: 스프레드시트 / Looker Studio / 경량 BI / Apps Script<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-도구-스프레드시트--looker-studio--경량-bi--apps-script" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="공통">공통<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#공통" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>4-01</td><td>팀 KPI 대시보드</td><td>주요 지표 자동 집계 + 시각화 + 목표 대비 현황</td><td>주 1시간</td><td>대시보드 링크 + 데이터 연동</td></tr><tr><td>4-02</td><td>예산 실적 모니터링</td><td>예산 대비 집행 현황 + 초과 시 알림</td><td>월 30분</td><td>차트 + 알림 규칙</td></tr><tr><td>4-03</td><td>프로젝트 일정 Gantt</td><td>마일스톤 기반 간트 차트 + 지연 시 알림</td><td>주 20분</td><td>간트 + 알림 로그</td></tr><tr><td>4-04</td><td>출퇴근/근태 현황판</td><td>팀원별 근태 현황 집계 + 이상 패턴 알림</td><td>주 15분</td><td>대시보드</td></tr></tbody></table></div>
+<h3 id="연구개발-3">연구/개발<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#연구개발-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>4-05</td><td>실험 진행률 대시보드</td><td>과제별 계획 대비 실험 진행률 + 병목 표시</td><td>주 30분</td><td>진행률 차트</td></tr><tr><td>4-06</td><td>물성 데이터 트렌드</td><td>주요 물성 시계열 추이 + 규격 이탈 알림</td><td>주 20분</td><td>트렌드 차트 + 알림</td></tr><tr><td>4-07</td><td>시험 장비 가동률</td><td>장비별 사용률 집계 + 유휴 시간 분석</td><td>월 30분</td><td>가동률 리포트</td></tr></tbody></table></div>
+<h3 id="생산설비-3">생산/설비<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#생산설비-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>4-08</td><td>생산 실적 대시보드</td><td>일일 생산량/목표 대비 달성률/라인별 현황</td><td>일 20분</td><td>실시간 대시보드</td></tr><tr><td>4-09</td><td>설비 OEE 모니터링</td><td>가동률/성능/품질 → OEE 자동 계산 + 추이</td><td>주 30분</td><td>OEE 차트</td></tr><tr><td>4-10</td><td>정비 이력 분석</td><td>장비별 고장 빈도/유형/MTBF 분석</td><td>월 1시간</td><td>분석 리포트</td></tr><tr><td>4-11</td><td>에너지 사용량 모니터링</td><td>전력/가스 사용량 추이 + 이상 사용 알림</td><td>월 30분</td><td>사용량 차트</td></tr></tbody></table></div>
+<h3 id="품질qa-3">품질/QA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#품질qa-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>4-12</td><td>불량률 대시보드</td><td>유형별/라인별/기간별 불량률 추이 + 파레토</td><td>주 30분</td><td>불량 분석 차트</td></tr><tr><td>4-13</td><td>SPC 관리도 자동화</td><td>X-bar/R 차트 자동 생성 + OOC 알림</td><td>일 15분</td><td>관리도 + 알림</td></tr><tr><td>4-14</td><td>클레임 분석 대시보드</td><td>유형별/제품별/거래처별 클레임 현황</td><td>월 30분</td><td>클레임 분석 차트</td></tr><tr><td>4-15</td><td>협력사 품질 현황</td><td>입고검사 합격률/불량 유형 집계</td><td>월 30분</td><td>협력사 스코어카드</td></tr></tbody></table></div>
+<h3 id="마케팅영업-2">마케팅/영업<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#마케팅영업-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>4-16</td><td>영업 파이프라인 대시보드</td><td>단계별 딜 현황/예상 매출/전환율</td><td>주 30분</td><td>퍼널 차트</td></tr><tr><td>4-17</td><td>마케팅 ROI 대시보드</td><td>채널별 비용/성과/ROI 비교</td><td>월 1시간</td><td>ROI 분석 차트</td></tr><tr><td>4-18</td><td>고객 세그먼트 분석</td><td>RFM 기반 고객 분류 + 현황 시각화</td><td>분기 2시간</td><td>세그먼트 차트</td></tr></tbody></table></div>
+<hr/>
+<h1 id="-레벨-5-현장-파일럿-120분">🏭 레벨 5: 현장 파일럿 (≤120분)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-레벨-5-현장-파일럿-120분" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="-도구-모바일-폼--알림--경량-앱-glideappsheet">🔧 도구: 모바일 폼 + 알림 + 경량 앱 (Glide/AppSheet)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-도구-모바일-폼--알림--경량-앱-glideappsheet" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="생산설비-4">생산/설비<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#생산설비-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>5-01</td><td>설비 이상 신고 앱</td><td>현장에서 사진 촬영 → 정비팀 즉시 알림 → 조치 기록</td><td>건당 15분</td><td>앱 화면 + 플로우</td></tr><tr><td>5-02</td><td>품질 검사 모바일 폼</td><td>태블릿으로 검사 결과 입력 → 실시간 집계 → 이상 알림</td><td>건당 10분</td><td>폼 + 대시보드 연동</td></tr><tr><td>5-03</td><td>안전 아차사고 신고</td><td>현장 신고 → 안전팀 알림 → 조치 → 사례 공유</td><td>건당 20분</td><td>신고 앱 + 처리 플로우</td></tr><tr><td>5-04</td><td>자재 실사 모바일</td><td>바코드 스캔 → 재고 대조 → 차이 자동 기록</td><td>회당 30분</td><td>실사 앱 + 결과 시트</td></tr><tr><td>5-05</td><td>현장 체크리스트 디지털화</td><td>종이 체크리스트 → 모바일 폼 + 자동 기록</td><td>건당 10분</td><td>전/후 비교</td></tr></tbody></table></div>
+<h3 id="품질qa-4">품질/QA<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#품질qa-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>5-06</td><td>초중종품 검사 앱</td><td>검사 결과 입력 → 규격 자동 판정 → 이상 시 라인 알림</td><td>건당 10분</td><td>앱 + 알림 로그</td></tr><tr><td>5-07</td><td>외관 검사 사진 기록</td><td>불량 촬영 → 유형 태깅 → 자동 분류 저장</td><td>건당 5분</td><td>사진 DB + 분류</td></tr><tr><td>5-08</td><td>수입검사 모바일</td><td>입고품 검사 → 합격 시 창고 이동 알림 → 불합격 시 격리</td><td>건당 15분</td><td>검사 앱 + 플로우</td></tr></tbody></table></div>
+<h3 id="연구개발-4">연구/개발<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#연구개발-4" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>5-09</td><td>시작품 트래킹</td><td>시작품 이동 시 스캔 → 위치/상태 실시간 기록</td><td>건당 10분</td><td>트래킹 앱 + 이력</td></tr><tr><td>5-10</td><td>현장 시험 데이터 수집</td><td>주행/내구 시험 중 모바일 기록 → 자동 취합</td><td>회당 20분</td><td>수집 앱 + 데이터</td></tr></tbody></table></div>
+<h3 id="마케팅영업-3">마케팅/영업<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#마케팅영업-3" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>5-11</td><td>전시회 리드 수집 앱</td><td>명함 촬영 → OCR → CRM 자동 등록 → 팔로업 알림</td><td>건당 5분</td><td>앱 + CRM 연동</td></tr><tr><td>5-12</td><td>현장 방문 리포트</td><td>방문 중 체크리스트 + 사진 → 자동 리포트 생성</td><td>건당 20분</td><td>리포트 앱</td></tr><tr><td>5-13</td><td>딜러 재고 조사</td><td>매장 방문 시 재고 입력 → 본사 실시간 집계</td><td>회당 30분</td><td>조사 앱 + 대시보드</td></tr></tbody></table></div>
+<hr/>
+<h1 id="-cursor--copilot-특화-과제">🎯 Cursor / Copilot 특화 과제<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-cursor--copilot-특화-과제" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="코드-생성자동화">코드 생성·자동화<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#코드-생성자동화" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>C-01</td><td>엑셀 매크로 생성</td><td>반복 작업을 VBA 매크로로 자동화</td><td>건당 30분</td><td>코드 + 실행 전/후</td></tr><tr><td>C-02</td><td>데이터 전처리 스크립트</td><td>CSV/Excel 정제·변환 파이썬 스크립트</td><td>건당 20분</td><td>스크립트 + 결과</td></tr><tr><td>C-03</td><td>간단한 웹 대시보드</td><td>Streamlit/Gradio 기반 1페이지 대시보드</td><td>건당 1시간</td><td>대시보드 링크 + 코드</td></tr><tr><td>C-04</td><td>API 연동 스크립트</td><td>외부 서비스 API 호출·데이터 수집 자동화</td><td>건당 30분</td><td>스크립트 + 결과</td></tr><tr><td>C-05</td><td>정규표현식 생성</td><td>복잡한 텍스트 패턴 추출 정규식 작성</td><td>건당 15분</td><td>정규식 + 테스트 결과</td></tr><tr><td>C-06</td><td>SQL 쿼리 생성</td><td>자연어 → SQL 변환으로 데이터 추출</td><td>건당 15분</td><td>쿼리 + 결과</td></tr><tr><td>C-07</td><td>배치 파일 자동화</td><td>반복 파일 작업(이름 변경, 이동 등) 스크립트</td><td>건당 20분</td><td>스크립트 + 실행 로그</td></tr></tbody></table></div>
+<hr/>
+<h1 id="-dify-특화-과제">🧩 Dify 특화 과제<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-dify-특화-과제" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="ai-워크플로우챗봇">AI 워크플로우·챗봇<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ai-워크플로우챗봇" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>No</th><th>과제명</th><th>설명</th><th>예상 절감</th><th>증빙</th></tr></thead><tbody><tr><td>D-01</td><td>사내 규정 Q&amp;A 봇</td><td>규정 문서 업로드 → RAG 기반 질의응답 봇</td><td>건당 10분</td><td>봇 데모 + 정확도</td></tr><tr><td>D-02</td><td>기술 문서 검색 봇</td><td>기술 자료 기반 검색·요약 봇</td><td>건당 15분</td><td>검색 결과 샘플</td></tr><tr><td>D-03</td><td>신입사원 온보딩 봇</td><td>자주 묻는 질문 자동 응답</td><td>인당 30분</td><td>FAQ 응답 로그</td></tr><tr><td>D-04</td><td>제품 스펙 조회 봇</td><td>제품 정보 DB 기반 스펙 조회</td><td>건당 5분</td><td>조회 결과 샘플</td></tr><tr><td>D-05</td><td>클레임 초기 대응 봇</td><td>클레임 유형 분류 + 초기 응대 메시지 생성</td><td>건당 10분</td><td>대응 메시지 샘플</td></tr></tbody></table></div>
+<hr/>
+<h1 id="-과제-선택-가이드">📋 과제 선택 가이드<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-과제-선택-가이드" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="직군별-추천-경로">직군별 추천 경로<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#직군별-추천-경로" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>직군</th><th>레벨1 추천</th><th>레벨2 추천</th><th>레벨3 추천</th><th>레벨4 추천</th><th>레벨5 추천</th></tr></thead><tbody><tr><td><strong>연구/개발</strong></td><td>1-06, 1-07</td><td>2-06, 2-07, 2-08</td><td>3-06, 3-07</td><td>4-05, 4-06</td><td>5-09, 5-10</td></tr><tr><td><strong>생산/설비</strong></td><td>1-09, 1-10, 1-11</td><td>2-11, 2-12, 2-13</td><td>3-09, 3-10, 3-11</td><td>4-08, 4-09, 4-10</td><td>5-01, 5-02, 5-05</td></tr><tr><td><strong>품질/QA</strong></td><td>1-12, 1-13, 1-14</td><td>2-15, 2-16, 2-17</td><td>3-12, 3-13, 3-14</td><td>4-12, 4-13, 4-14</td><td>5-06, 5-07, 5-08</td></tr><tr><td><strong>마케팅/영업</strong></td><td>1-15, 1-16, 1-17</td><td>2-19, 2-20, 2-21</td><td>3-15, 3-16, 3-17</td><td>4-16, 4-17, 4-18</td><td>5-11, 5-12, 5-13</td></tr><tr><td><strong>경영지원</strong></td><td>1-01, 1-02, 1-04</td><td>2-01, 2-02, 2-03</td><td>3-01, 3-02, 3-05</td><td>4-01, 4-02, 4-03</td><td>-</td></tr></tbody></table></div>
+<h2 id="난이도별-소요-시간-가이드">난이도별 소요 시간 가이드<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#난이도별-소요-시간-가이드" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>레벨</th><th>초보자</th><th>중급자</th><th>숙련자</th></tr></thead><tbody><tr><td>1</td><td>90분</td><td>60분</td><td>30분</td></tr><tr><td>2</td><td>120분</td><td>90분</td><td>45분</td></tr><tr><td>3</td><td>150분</td><td>120분</td><td>60분</td></tr><tr><td>4</td><td>180분</td><td>120분</td><td>90분</td></tr><tr><td>5</td><td>180분</td><td>150분</td><td>90분</td></tr></tbody></table></div>
+<hr/>
+<h1 id="-과제-제출-체크리스트-공통">✅ 과제 제출 체크리스트 (공통)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-과제-제출-체크리스트-공통" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="필수-제출물">필수 제출물<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#필수-제출물" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> 전/후 비교 캡처 (최소 2장)</li>
+<li class="task-list-item"><input type="checkbox" disabled/> 절감 시간 산식 (가정 명시)</li>
+<li class="task-list-item"><input type="checkbox" disabled/> 워크플로우/프롬프트/코드 (해당 시)</li>
+</ul>
+<h2 id="가산점-항목">가산점 항목<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#가산점-항목" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul class="contains-task-list">
+<li class="task-list-item"><input type="checkbox" disabled/> 타 부서/업무 적용 가능성 설명</li>
+<li class="task-list-item"><input type="checkbox" disabled/> 실패→수정 과정 기록</li>
+<li class="task-list-item"><input type="checkbox" disabled/> 60초 데모 영상</li>
+<li class="task-list-item"><input type="checkbox" disabled/> 동료 피드백 (1건 이상)</li>
+</ul>
+<h2 id="제출-예시-양식">제출 예시 양식<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#제출-예시-양식" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<pre><code>[과제명] 이메일 → 슬랙 알림봇
+
+[적용 업무] 
+긴급 메일 확인 지연으로 인한 대응 누락 방지
+
+[절감 산식]
+- 기존: 메일함 확인 하루 6회 × 3분 = 18분/일
+- 개선: 자동 알림으로 확인 시간 0분
+- 절감: 18분/일 × 20일 = 360분/월 = 6시간/월
+
+[첨부]
+1. Make 시나리오 캡처
+2. 슬랙 알림 메시지 캡처
+3. 필터 규칙 설정 화면
+</code></pre></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-1" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#dxax-챌린지-과제-풀" data-for="dxax-챌린지-과제-풀">DX·AX 챌린지 과제 풀</a></li><li class="depth-1"><a href="#과제-설계-원칙" data-for="과제-설계-원칙">과제 설계 원칙</a></li><li class="depth-0"><a href="#-레벨-1-개인-미니-자동화-60분" data-for="-레벨-1-개인-미니-자동화-60분">📊 레벨 1: 개인 미니 자동화 (≤60분)</a></li><li class="depth-1"><a href="#-도구-make--n8n--zapier" data-for="-도구-make--n8n--zapier">🔧 도구: Make / n8n / Zapier</a></li><li class="depth-2"><a href="#공통-업무" data-for="공통-업무">공통 업무</a></li><li class="depth-2"><a href="#연구개발" data-for="연구개발">연구/개발</a></li><li class="depth-2"><a href="#생산설비" data-for="생산설비">생산/설비</a></li><li class="depth-2"><a href="#품질qa" data-for="품질qa">품질/QA</a></li><li class="depth-2"><a href="#마케팅영업지원" data-for="마케팅영업지원">마케팅/영업/지원</a></li><li class="depth-0"><a href="#-레벨-2-생성형-ai-도구화-90분" data-for="-레벨-2-생성형-ai-도구화-90분">🤖 레벨 2: 생성형 AI 도구화 (≤90분)</a></li><li class="depth-1"><a href="#-도구-chatgpt--claude--cursor--copilot--dify" data-for="-도구-chatgpt--claude--cursor--copilot--dify">🔧 도구: ChatGPT / Claude / Cursor / Copilot / Dify</a></li><li class="depth-2"><a href="#공통-업무-1" data-for="공통-업무-1">공통 업무</a></li><li class="depth-2"><a href="#연구개발-1" data-for="연구개발-1">연구/개발</a></li><li class="depth-2"><a href="#생산설비-1" data-for="생산설비-1">생산/설비</a></li><li class="depth-2"><a href="#품질qa-1" data-for="품질qa-1">품질/QA</a></li><li class="depth-2"><a href="#마케팅영업" data-for="마케팅영업">마케팅/영업</a></li><li class="depth-0"><a href="#-레벨-3-팀-워크플로우-구축-120분" data-for="-레벨-3-팀-워크플로우-구축-120분">🔗 레벨 3: 팀 워크플로우 구축 (≤120분)</a></li><li class="depth-1"><a href="#-도구-notion--forms--airtable--자동화-연동" data-for="-도구-notion--forms--airtable--자동화-연동">🔧 도구: Notion / Forms / Airtable + 자동화 연동</a></li><li class="depth-2"><a href="#공통협업" data-for="공통협업">공통/협업</a></li><li class="depth-2"><a href="#연구개발-2" data-for="연구개발-2">연구/개발</a></li><li class="depth-2"><a href="#생산설비-2" data-for="생산설비-2">생산/설비</a></li><li class="depth-2"><a href="#품질qa-2" data-for="품질qa-2">품질/QA</a></li><li class="depth-2"><a href="#마케팅영업-1" data-for="마케팅영업-1">마케팅/영업</a></li><li class="depth-0"><a href="#-레벨-4-데이터품질-대시보드-120분" data-for="-레벨-4-데이터품질-대시보드-120분">📈 레벨 4: 데이터·품질 대시보드 (≤120분)</a></li><li class="depth-1"><a href="#-도구-스프레드시트--looker-studio--경량-bi--apps-script" data-for="-도구-스프레드시트--looker-studio--경량-bi--apps-script">🔧 도구: 스프레드시트 / Looker Studio / 경량 BI / Apps Script</a></li><li class="depth-2"><a href="#공통" data-for="공통">공통</a></li><li class="depth-2"><a href="#연구개발-3" data-for="연구개발-3">연구/개발</a></li><li class="depth-2"><a href="#생산설비-3" data-for="생산설비-3">생산/설비</a></li><li class="depth-2"><a href="#품질qa-3" data-for="품질qa-3">품질/QA</a></li><li class="depth-2"><a href="#마케팅영업-2" data-for="마케팅영업-2">마케팅/영업</a></li><li class="depth-0"><a href="#-레벨-5-현장-파일럿-120분" data-for="-레벨-5-현장-파일럿-120분">🏭 레벨 5: 현장 파일럿 (≤120분)</a></li><li class="depth-1"><a href="#-도구-모바일-폼--알림--경량-앱-glideappsheet" data-for="-도구-모바일-폼--알림--경량-앱-glideappsheet">🔧 도구: 모바일 폼 + 알림 + 경량 앱 (Glide/AppSheet)</a></li><li class="depth-2"><a href="#생산설비-4" data-for="생산설비-4">생산/설비</a></li><li class="depth-2"><a href="#품질qa-4" data-for="품질qa-4">품질/QA</a></li><li class="depth-2"><a href="#연구개발-4" data-for="연구개발-4">연구/개발</a></li><li class="depth-2"><a href="#마케팅영업-3" data-for="마케팅영업-3">마케팅/영업</a></li><li class="depth-0"><a href="#-cursor--copilot-특화-과제" data-for="-cursor--copilot-특화-과제">🎯 Cursor / Copilot 특화 과제</a></li><li class="depth-1"><a href="#코드-생성자동화" data-for="코드-생성자동화">코드 생성·자동화</a></li><li class="depth-0"><a href="#-dify-특화-과제" data-for="-dify-특화-과제">🧩 Dify 특화 과제</a></li><li class="depth-1"><a href="#ai-워크플로우챗봇" data-for="ai-워크플로우챗봇">AI 워크플로우·챗봇</a></li><li class="depth-0"><a href="#-과제-선택-가이드" data-for="-과제-선택-가이드">📋 과제 선택 가이드</a></li><li class="depth-1"><a href="#직군별-추천-경로" data-for="직군별-추천-경로">직군별 추천 경로</a></li><li class="depth-1"><a href="#난이도별-소요-시간-가이드" data-for="난이도별-소요-시간-가이드">난이도별 소요 시간 가이드</a></li><li class="depth-0"><a href="#-과제-제출-체크리스트-공통" data-for="-과제-제출-체크리스트-공통">✅ 과제 제출 체크리스트 (공통)</a></li><li class="depth-1"><a href="#필수-제출물" data-for="필수-제출물">필수 제출물</a></li><li class="depth-1"><a href="#가산점-항목" data-for="가산점-항목">가산점 항목</a></li><li class="depth-1"><a href="#제출-예시-양식" data-for="제출-예시-양식">제출 예시 양식</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../" class="internal">DX·AX 연구 자료실</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

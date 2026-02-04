@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>DX·AX 챌린지 과제 풀 (50+ 예시)</title>
+    <link>https://quartz.jzhao.xyz/DX_AX_pool/DX%C2%B7AX-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EA%B3%BC%EC%A0%9C-%ED%92%80-(50+-%EC%98%88%EC%8B%9C)</link>
+    <guid>https://quartz.jzhao.xyz/DX_AX_pool/DX%C2%B7AX-%EC%B1%8C%EB%A6%B0%EC%A7%80-%EA%B3%BC%EC%A0%9C-%ED%92%80-(50+-%EC%98%88%EC%8B%9C)</guid>
+    <description><![CDATA[ DX·AX 챌린지 과제 풀 과제 설계 원칙 60분 규칙: 모든 과제는 점심시간 활용 기준 60~120분 내 완료 가능 1장 증빙: 전/후 캡처 + 절감 산식으로 간단히 증명 즉시 체감: 완료 즉시 본인 업무에 적용 가능한 실용성 📊 레벨 1: 개인 미니 자동화 (≤60분) 🔧 도구: Make / n8n / Zapier 공통 업무 No과제명설명예상 절감증빙1-01이메일 → 슬랙 알림봇특정 키워드(긴급, 결재요청 등) 포함 메일 수신 시 슬랙/팀즈로 즉시 알림하루 10분플로우 캡처 + 알림 스크린샷1-02일정 리마인더 자동화구글/아... ]]></description>
+    <pubDate>Wed, 04 Feb 2026 02:25:50 GMT</pubDate>
+  </item><item>
+    <title>Cursor _ Copilot _ Dify 특화 과제 풀 (80+ 예시)</title>
+    <link>https://quartz.jzhao.xyz/DX_AX_pool/Cursor-_-Copilot-_-Dify-%ED%8A%B9%ED%99%94-%EA%B3%BC%EC%A0%9C-%ED%92%80-(80+-%EC%98%88%EC%8B%9C)</link>
+    <guid>https://quartz.jzhao.xyz/DX_AX_pool/Cursor-_-Copilot-_-Dify-%ED%8A%B9%ED%99%94-%EA%B3%BC%EC%A0%9C-%ED%92%80-(80+-%EC%98%88%EC%8B%9C)</guid>
+    <description><![CDATA[ Cursor / Copilot / Dify 특화 과제 풀 🖥️ CURSOR 특화 과제 Cursor 특징: AI 기반 코드 에디터로 자연어 → 코드 변환, 코드 수정/리팩토링, 디버깅에 강점 레벨 1: 입문 (≤60분) 데이터 처리 자동화 No과제명설명적용 직군예상 절감증빙CU-01엑셀 파일 병합 스크립트여러 엑셀 파일을 하나로 병합하는 Python 스크립트전 직군건당 20분코드 + 실행 결과CU-02CSV 데이터 정제중복 제거, 빈값 처리, 형식 통일 자동화전 직군건당 15분전/후 데이터 비교CU-03폴더 내 파일 일괄 이름 변경... ]]></description>
+    <pubDate>Wed, 04 Feb 2026 02:25:50 GMT</pubDate>
+  </item><item>
+    <title>DX·AX 연구 자료실</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ 📚 DX·AX 연구 자료실 환영합니다! 이 페이지는 Obsidian Vault에서 선별한 DX·AX 관련 연구 자료를 웹으로 공유하기 위해 만들었습니다. ]]></description>
+    <pubDate>Wed, 23 Aug 2023 19:09:04 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
